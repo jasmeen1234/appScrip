@@ -1,0 +1,289 @@
+.footer-panel{
+    background-color: #000000;
+    width:100%;
+    height: 750px;
+    /* margin-left:30px; */
+    /* margin-right: 25px; */
+    margin-top: 10px;
+    
+  }
+  
+  ul{
+    margin-top: 20px;
+  }
+  ul a  {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    text-align: left;
+  }
+  .bttn{
+    border-radius: 10px;
+    border :1.14px;
+   opacity:30%;
+    color: #000000;
+  
+  
+  
+  }
+  .flag-icons{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .flag{
+    border-radius: 25px;
+  }
+  .input-box{
+   display: flex;
+   gap:5px 
+  }
+  .foot-panel3{
+   
+   
+    border-top: 0.5px solid white;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .foot-panel4{
+  color: white;
+  height: 50px;
+  font-size: 0.7rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  }
+  .image{
+    display: flex;
+    height: 80px;
+    width:32px;
+   text-align: left;
+    gap:15px;
+    margin-top: 15px;
+    margin-right: 10px;
+  
+  
+  }
+  .social-icons{
+   height:98px;
+   width:88px; 
+  }
+  .insta{
+    height:32px;
+    width: 32px;
+  
+  }
+  .linkdin{
+    height:32px;
+    margin-top:9px;
+    width: 32px;
+  }
+  .accept
+  {
+  display:flex;
+  margin-top: 5px;
+  }
+  .allImage{
+    display: flex;
+    
+    margin-top: 10px;
+    gap: 10px;
+    width: 370px;
+    height: 35px;
+  }
+  
+  
+  
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 0; */
+    padding: 10px;
+   
+  }
+  
+  .left-panel,
+  .right-panel {
+    flex: 1;
+   
+  }
+  
+  .left-panel {
+    display: block;
+    width: 300px;
+    /* flex-direction: start; */
+    color: #dddddd;
+   text-align: left;
+    /* padding: 50px; */
+    
+    background-color: #000000; /* Light gray background */
+  }
+  
+  .right-panel {
+    padding: 20px;
+    color: #dddddd;
+    width: 300px;
+   display: block;
+   text-align: left;
+    background-color: #000000; 
+  }
+  .right-list{
+    height: 80px;
+    gap: 50px;
+    margin-top: 10px;
+  }
+  
+  
+  .input-box {
+    margin-top: 10px;
+  }
+  
+  .input-box input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-box button {
+    padding: 8px 15px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .flag-icons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    text-align: left;
+  justify-content: flex-start;
+  }
+  
+  .flag {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  .copyright{
+    /* padding-top: 5px; */
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    align-items: center;
+    /* text-align: center; */
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    
+    }
+  
+  
+  
+  
+  .right-panel,
+  .left-panel {
+    width: 100%; 
+    margin: 0; 
+  }
+  
+  .sidebar {
+    width: 20%; 
+    margin: 0;
+    margin-left: 30px;
+  }
+  
+  
+  .product-list {
+    width: 80%; 
+    margin-right: 30px; 
+  }
+  
+  .box {
+    width: 80%; 
+    margin-left: 30px; 
+  }
+  @media screen and (max-width:640px){
+    /* *{
+      border:1px solid blue
+    } */
+    .footer-panel {
+      background-color: #000000;
+      width: 100%;
+      height: 750px;
+     
+      
+      
+  }
+  .transaction{
+    display: none;
+  }
+  .about{
+    display: none;
+  }
+  .foot-panel3{
+   
+   
+    border-top: 0.5px solid white;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .foot-panel4{
+    color: white;
+    height: 50px;
+    font-size: 0.7rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    }
+    .image{
+      /* visibility: hidden; */
+      display: none;
+    }
+    .footer-container{
+      flex-direction: column;
+      align-items: center;
+    }
+    .quick-links{
+      text-align: left;
+    }
+    .allImage{
+      display: flex;
+      text-align: start;
+      margin-top: 10px;
+      gap: 10px;
+      /* max-width: fit-content; */
+      width: 350px ;
+      height: 35px;
+      /* visibility: hidden; */
+    }
+    .social-icons{
+      height:98px;
+      width:70px; 
+     }
+    .quick{
+      visibility: hidden;
+    }
+    .image-phone{
+      display:flex;
+      flex-direction: column;
+    }
+    .right-panel {
+      
+      color: #dddddd;
+      width: 300px;
+     display: block;
+     text-align: left;
+      background-color: #000000; 
+    }
+  }
